@@ -1,9 +1,6 @@
 import os
 
 # welcome message
-from curses.ascii import isdigit
-
-
 def welcome():
     os.system('clear')
     print('Welcome to Tic Tac Toe!')
